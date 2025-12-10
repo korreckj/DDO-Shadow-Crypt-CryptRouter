@@ -1,10 +1,20 @@
 """
 INSTANCE ONE SETUP
 """
+import heapq
+import itertools
 
+from room import *
+from instance import Instance
+
+global pointedRoomListInstance1
+global pointedRoomListInstance2
+global pointedRoomListInstance3
 
 def initializeInstance1():
     global instance1
+    global pointedRoomListInstance1
+    pointedRoomListInstance1 = [Room("Colorless", "Start")]
     # add the rooms in instance one initially to a list so that they can be indexed [exhaustively, theres no pattern just how it is]
     pointedRoomListInstance1.append(Room("Green", "Columns"))  # INDEX 1
     pointedRoomListInstance1.append(Room("Red", "Columns"))  # INDEX 2
@@ -112,6 +122,8 @@ INSTANCE 2 SETUP
 
 def initializeInstance2():
     global instance2
+    global pointedRoomListInstance2
+    pointedRoomListInstance2 = [Room("Colorless", "Start")]
     pointedRoomListInstance2.append(Room("Green", "Columns"))  # INDEX 1
     pointedRoomListInstance2.append(Room("Blue", "Columns"))  # INDEX 2
     pointedRoomListInstance2.append(Room("Green", "Maze"))  # INDEX 3
@@ -218,6 +230,8 @@ INSTANCE 3 SETUP
 
 def initializeInstance3():
     global instance3
+    global pointedRoomListInstance3
+    pointedRoomListInstance3 = [Room("Colorless", "Start")]
     pointedRoomListInstance3.append(Room("Yellow", "Columns"))  # INDEX 1
     pointedRoomListInstance3.append(Room("Red", "Columns"))  # INDEX 2
     pointedRoomListInstance3.append(Room("Yellow", "Maze"))  # INDEX 3

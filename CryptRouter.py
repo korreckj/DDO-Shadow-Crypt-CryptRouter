@@ -13,6 +13,14 @@ global instance1
 global instance2
 global instance3
 
+global pointedRoomListInstance1
+global pointedRoomListInstance2
+global pointedRoomListInstance3
+
+pointedRoomListInstance1 = [Room("Colorless", "Start")]  # starting room = index 0
+pointedRoomListInstance2 = [Room("Colorless", "Start")]  # starting room = index 0
+
+
 # next step: creating objects for each possible room (without pointers, just yet)
 
 def main():
@@ -21,14 +29,15 @@ def main():
 GENERAL INSTANCE SETUP
 """
 
-    pointedRoomListInstance1 = [Room("Colorless", "Start")]  # starting room = index 0
-    pointedRoomListInstance2 = [Room("Colorless", "Start")]  # starting room = index 0
-    pointedRoomListInstance3 = [Room("Colorless", "Start")]  # starting room = index 0
+      # starting room = index 0
 
     global instance1
     global instance2
     global instance3
 
+    instance1 = []
+    instance2 = []
+    instance3 = []
     """
     #TEST CASES
     
