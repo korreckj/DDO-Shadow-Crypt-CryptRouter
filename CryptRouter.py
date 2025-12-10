@@ -81,10 +81,10 @@ while True:
         welcStr += "\n\n How do I use Crypt-Router?"
         welcStr += "\n\n\t - First, you will begin by letting the program know if you know what instance you are in or not."
         welcStr += "\n\n\t - Second, you will be asked which instance you are in if you know your current instance; if not, the program will help figure out your instance\n\t along side you."
-        welcStr += "\n\n\t - Third, you will give the program which room you are currently in\n\t ( of which can be written out as given to you or abbrieviated by <first-letter-of-color><first-letter-of-structure> )"
+        welcStr += "\n\n\t - Third, you will give the program which room you are currently in\n\t ( of which can be written out as given to you or abbreviated by <first-letter-of-color><first-letter-of-structure> )"
         welcStr += "\n\n\t - Fourth, similarly to the last step you will let the program know which room you want to go to. Note: If you need a specific gear color,\n\t go to a room of that color."
         welcStr += "\n\nIMPORTANT NOTE:\t if you encounter a maze that you cannot traverse through, enter another room (sometimes more than one room away)\n\t and restart the program from there"
-        welcStr += ". However, the progam operates in such a way that most of the times you can avoid mazes altogether."
+        welcStr += ". However, the program operates in such a way that most of the times you can avoid mazes altogether."
         welcStr += "\n\nAfter these steps, you will have been given a path formatted by which room you need to go to and which direction to go as well as\nuppercase directional format as traditionally used on DDO wiki. i.e EWSNE"
         print(welcStr)
     while firstIteration:
