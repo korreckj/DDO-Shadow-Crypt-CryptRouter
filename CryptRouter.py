@@ -831,7 +831,10 @@ GENERAL INSTANCE SETUP
             break
 
 
-main()
+if __name__ == "__main__":
+    main()
+
+
 """
 
 ADDITIONAL DOCUMENTATION
